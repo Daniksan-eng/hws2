@@ -1,8 +1,33 @@
-.burgerMenuIcon {
-}
-
+/* Шапка */
 .header {
-}
-
-.header h1 {
-}
+    display: flex;
+    justify-content: space-between; /* Бургер слева, заголовок справа */
+    align-items: center;            /* Выравнивание по центру по вертикали */
+    height: 60px;                   /* Высота шапки */
+    padding: 0 30px;                /* Отступы по бокам */
+    background-color: #ffffff;      /* Белый фон */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Легкая тень снизу */
+    position: relative;             /* Чтобы шапка была поверх контента, если нужно */
+    z-index: 10;
+  }
+  
+  /* Иконка бургер-меню */
+  .burgerMenuIcon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;                /* Курсор-рука при наведении */
+    transition: opacity 0.2s;       /* Плавность */
+  }
+  
+  .burgerMenuIcon:hover {
+    opacity: 0.7;                   /* Чуть прозрачнее при наведении */
+  }
+  
+  /* Заголовок страницы (Pre-junior, Junior и т.д.) */
+  .header h1 {
+    font-size: 20px;                /* Размер шрифта */
+    font-weight: 600;               /* Жирность */
+    color: #1a1a1a;                 /* Цвет текста (почти черный) */
+    margin: 0;                      /* Убираем стандартные отступы h1 */
+    text-align: right;              /* Текст прижат вправо */
+  }
