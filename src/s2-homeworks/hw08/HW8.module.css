@@ -1,23 +1,39 @@
 .item {
-}
+    border-bottom: 1px solid #ddd;
+  }
 
-.item:last-of-type {
-}
+  .item:last-of-type {
+    border-bottom: none;
+  }
 
 .users {
-}
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
 
 .buttonsContainer {
-}
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end; /* Кнопки прижаты вправо, как на скрине */
+  }
 
 .container {
-}
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: Arial, sans-serif;
+  }
 
-.thead {
-}
+  .thead {
+    background-color: #e0e0e0;
+  }
 
-.nameCol {
-}
+  .nameCol {
+    width: 60%; /* Имя занимает большую часть */
+  }
 
-.ageCol {
-}
+  .ageCol {
+    width: 40%;
+    font-weight: bold; /* В дизайне возраст выделен жирным */
+  }
