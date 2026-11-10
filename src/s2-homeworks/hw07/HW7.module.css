@@ -1,2 +1,6 @@
 .container {
-}
+    display: flex;
+    gap: 40px; /* Расстояние между селектом и радио-кнопками */
+    align-items: flex-start;
+    margin-top: 20px;
+  }
