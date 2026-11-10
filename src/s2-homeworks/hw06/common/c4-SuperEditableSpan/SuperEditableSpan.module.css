@@ -1,11 +1,32 @@
 .spanBlock {
-}
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
 
-.span {
-}
+  .span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #0066cc; /* Синий цвет текста */
+    cursor: pointer;
+  }
 
-.input {
-}
+  .input {
+    padding: 8px 12px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    width: 250px;
+    transition: border-color 0.2s;
+  }
 
-.pen {
-}
+  .pen {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    fill: #0066cc; /* Синий цвет иконки */
+    transition: opacity 0.2s;
+  }

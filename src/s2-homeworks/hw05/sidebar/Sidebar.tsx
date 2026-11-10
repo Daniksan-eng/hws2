@@ -4,6 +4,7 @@ import s from './Sidebar.module.css'
 import {PATH} from '../Pages'
 import closeIcon from './closeOutline.svg'
 
+
 type PropsType = {
     open: boolean
     handleClose: () => void
